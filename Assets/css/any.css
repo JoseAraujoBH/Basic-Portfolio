@@ -110,12 +110,6 @@ h2, h3 {
     padding-left: 200px;
 }
 
-#port-container {
-    padding-top: 130px;
-    float: left;
-    padding-left: 200px;
-}
-
 #cont-container {
     padding-top: 130px;
     float: left;
@@ -132,13 +126,13 @@ h2, h3 {
     border: 1px solid #ddd;
  } 
 
- .auth-image {
-     width: 200px;
-     height: auto;
-     margin-top: 10px;
-     float: left;
-     margin-right: 25px;
- }
+ .pro-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
 
  /*sidebar*/ 
  .sidebar {
@@ -193,22 +187,47 @@ h2, h3 {
 
  /*porfolio*/
 
+ #port-container {
+    padding-top: 130px;
+    float: left;
+    padding-left: 200px;
+}
+
  .work {
-     width: 274px;
+     width: 300px;
+     height: 200px;
      overflow: auto;
      position: relative;
      float: left;
-     margin: 20px 0 25px;
+     margin: 20px 30px 25px;
+     box-shadow: 5px 5px 5px rgb(50, 154, 196);
+	 /* transition: box-shadow 1s; */
  }
 
- .work:nth-child(even) {
+ /* .work:nth-child(even) {
      margin-right: 40px;
- }
+ } */
+
+ /* .auth-image {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+.auth-image2 {
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+} */
 
  .work img {
      width: 100%;
      border: 0 none;
-     opacity: .8;
+     /* opacity: .8; */
  }
 
  .work h3 {
@@ -223,6 +242,7 @@ h2, h3 {
      line-height: 30px;
      margin-bottom: 0;
      font-weight: 300;
+     opacity: .8;
  }
 
  /*contacts*/
