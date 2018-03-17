@@ -168,9 +168,9 @@ h2, h3 {
      margin-right: 8px;
  }
 
- .social last-child {
+.social last-child {
      margin-right: 0;
- }
+}
 
  /*footer*/
 
@@ -201,7 +201,7 @@ h2, h3 {
      float: left;
      margin: 20px 30px 25px;
      box-shadow: 5px 5px 5px rgb(50, 154, 196);
-	 /* transition: box-shadow 1s; */
+	 transition: box-shadow 3s;
  }
 
  /* .work:nth-child(even) {
